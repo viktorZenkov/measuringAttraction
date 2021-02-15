@@ -6,6 +6,20 @@
     <title>Unity WebGL Player | scatterPlot</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    
+    <style>
+table {
+  border:2px solid brown; border-collapse: collapse; background-color: #f1f1c1;  
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+kbd {
+border-radius:2px; padding:3px; border: 1px solid gray; background-color:lightgray
+}
+</style>
+    
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -35,8 +49,22 @@ M key to toggle mouse control on and off; mouse rotates camera.
 P key to toggle grid overlay.
 O key to toggle position and facing display of current camera.
 I key to toggle cell identification labels.
-
 </p>
+    
+    <table>
+  <tr>
+      <td style="border:1px solid brown;"><kbd>K</kbd> Increase time</td>
+    <td style="border:1px solid brown;"><kbd>J</kbd> Decrease time</td>
+    <td style="border:1px solid brown;">test</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid brown;">test</td>
+    <td style="border:1px solid brown;">test</td>
+    <td style="border:1px solid brown;">test</td>
+  </tr>
+</table>
+<br>
+    
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/cellsAndParasite.loader.js";
