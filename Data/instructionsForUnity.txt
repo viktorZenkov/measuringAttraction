@@ -16,8 +16,8 @@
     <td><kbd>O</kbd> Position and facing display on/off</td>
     <td><kbd>I</kbd> Cell id display on/off</td>
     <td><kbd>Q</kbd> Move to initial position</td>
-    <td></td>
-    <td></td>
+    <td><kbd>T</kbd> Autotime on/off</td>
+    <td>If error occurs, reload page with mouse cursor over game window</td>
   </tr>
 </table>
 
