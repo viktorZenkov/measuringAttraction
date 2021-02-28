@@ -6,6 +6,19 @@
     <title>Unity WebGL Player | scatterPlot</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <style>
+table {
+  border:1px solid brown; border-collapse: collapse; background-color: #f1f1c1;  
+  font-size: x-small;
+}
+th, td {
+  padding: 1px;
+  text-align: left;
+}
+kbd {
+border-radius:2px; padding:1px; border: 1px solid gray; background-color:lightgray
+}
+</style>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -25,6 +38,28 @@
         <div id="unity-build-title">scatterPlot</div>
       </div>
     </div>
+    <table>
+  <tr>
+    <td><kbd>&#8592;</kbd> <kbd>&#8593;</kbd> <kbd>&#8595;</kbd> <kbd>&#8594;</kbd> Move left forward backward right</td>
+    <td><kbd>A</kbd> <kbd>W</kbd> <kbd>S</kbd> <kbd>D</kbd> Move left forward backward right, stop autoplay</td>
+    <td><kbd>space</kbd> Move up</td>
+    <td><kbd>B</kbd> Move down</td>
+    <td><kbd>V</kbd> Increase movement speed</td>
+    <td><kbd>C</kbd> Decrease movement speed</td>
+    <td><kbd>H</kbd> Increase time point</td>
+    <td><kbd>G</kbd> Decrease time point</td>
+  </tr>
+  <tr>
+    <td><kbd>Z</kbd> Autoplay on/off</td>
+    <td><kbd>M</kbd> Mouse control (camera rotate) on/off</td>
+    <td><kbd>P</kbd> Grid overlay on/off</td>
+    <td><kbd>O</kbd> Position and facing display on/off</td>
+    <td><kbd>I</kbd> Cell id display on/off</td>
+    <td><kbd>Q</kbd> Move to initial position</td>
+    <td><kbd>T</kbd> Autotime on/off</td>
+    <td>If error occurs, reload page with mouse cursor over game window</td>
+  </tr>
+</table>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/large.loader.js";
